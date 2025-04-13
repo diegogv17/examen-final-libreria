@@ -1,0 +1,25 @@
+{
+  "name": "examen-final-libreria",
+  "version": "1.0.0",
+  "description": "Examen-final-parcial-dos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegogv17/examen-final-libreria.git"
+  },
+  "author": "Diego Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegogv17/examen-final-libreria/issues"
+  },
+  "homepage": "https://github.com/diegogv17/examen-final-libreria#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
