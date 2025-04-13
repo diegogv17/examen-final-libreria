@@ -99,7 +99,7 @@ function buscarLibro() {
 ///4. Eliminar libro
 function eliminarLibro() {
     const titulo = readlineSync.question('Ingrese el titulo del libro que desea eliminar: ')
-    const index = catalogo.findIndex(libro => libro.titulo.toLowerCase() === titulo.toLowerCase())
+    const index = catalogo.find(libro => libro.titulo.toLowerCase() === titulo.toLowerCase())
     if (index !== -1) {
         catalogo.splice(index, 1)
         console.log('Libro eliminado correctamente.')
